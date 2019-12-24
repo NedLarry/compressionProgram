@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="462.0" prefWidth="459.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project_zipit.CompressImageController">
+   <children>
+      <TextField fx:id="sourcePath" layoutX="18.0" layoutY="170.0" prefHeight="25.0" prefWidth="315.0" promptText="Source path of file" />
+      <Button fx:id="fileChooseButton" layoutX="355.0" layoutY="170.0" mnemonicParsing="false" onAction="#sourceFile" prefHeight="25.0" prefWidth="82.0" text="Choose file!" />
+      <TextField fx:id="destinationPath" layoutX="18.0" layoutY="238.0" prefHeight="25.0" prefWidth="315.0" promptText="Destination path" />
+      <Button fx:id="destinationChooseButton" layoutX="350.0" layoutY="238.0" mnemonicParsing="false" onAction="#destinationFile" prefHeight="25.0" prefWidth="92.0" text="Choose path!" />
+      <Button layoutX="184.0" layoutY="311.0" mnemonicParsing="false" onAction="#compressImage" prefHeight="25.0" prefWidth="92.0" text="Compress" />
+      <Button layoutX="18.0" layoutY="416.0" mnemonicParsing="false" onAction="#mainMenu" text="Main Menu" />
+      <Button layoutX="378.0" layoutY="416.0" mnemonicParsing="false" onAction="#backMain" text="Back" />
+   </children>
+</AnchorPane>

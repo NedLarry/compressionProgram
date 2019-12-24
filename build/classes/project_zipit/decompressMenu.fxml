@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="342.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project_zipit.DecompressMenuController">
+   <children>
+      <Button layoutX="84.0" layoutY="109.0" mnemonicParsing="false" onAction="#documentMenuDecompress" text="decompress Document" />
+      <Button layoutX="105.0" layoutY="171.0" mnemonicParsing="false" onAction="#archiveMenuDecompress" text="Extract Archive" />
+      <Button layoutX="29.0" layoutY="271.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="15.0" prefWidth="77.0" text="Main Menu" />
+   </children>
+</AnchorPane>
